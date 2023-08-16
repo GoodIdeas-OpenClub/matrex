@@ -1,0 +1,55 @@
+[ Matrex version 2.2 - Readme ]
+
+Matrex is a tool that gives you the same functionalities of a classic spreadsheet application in a new, different way.
+Matrex is excellent when working with blocks of data coming from databases, feeds, files, external applications, simulations.
+Matrex is different because:
+
+   1. The functions (formulas) are applied to entire blocks of data, called matrices, not to single cells.
+   2. Presentations and charts are visible only when you want, not all the time.
+   3. Calculations don't block the application and can be done in parallel (multithreading).
+   4. Matrex can be used as a standalone application or can connect to a Matrex Server to share projects.
+
+Matrex is different but it has everything you need: presentations (spreadsheets) and charts.
+
+Matrex is the perfect tool for mathematical models and for other statistical, engineering, physical, and generally scientific calculations.
+
+The Matrex homepage is http://matrex.sourceforge.net.
+
+The licences used by Matrex or the libraries it uses are available in the 
+legal folder. Matrex is covered by the GNU GPL 3 and any derivative work 
+based on it must also be covered by this licence.
+
+To run, Matrex 2.2 needs:
+- Java Runtime version 1.6 or higher (is also called Java6).
+- Optionally Java3D (http://java.sun.com/products/java-media/3D/) to have 3D charts.
+
+Matrex 2.2 uses the following products:
+- SWT (http://www.eclipse.org) for the graphical user interface
+- JFreeChart (http://www.jfree.org/jfreechart/index.php) for the 2D charts
+- FreeHep (http://java.freehep.org/index.html) for the 3D charts
+- Jython (http://www.jython.org) as embedded scripting language
+- Apache Commons Math (http://jakarta.apache.org/commons/math/) to calculate pure matrices 
+functions and statistical functions
+- Lucene (http://lucene.apache.org/) as search engine for the context help
+- JExcelApi (http://www.andykhan.com/jexcelapi/) to read/write xls files
+- IzPack (http://www.izforge.com/izpack/) to install Matrex
+- Antlr (http://www.antlr.org) to parse the SQL queries in the ISQL module
+- Paperclips (http://paperclips.sourceforge.net/) to print
+- JavaCsv (http://sourceforge.net/projects/javacsv/) to read/write csv files
+- JodaTime (http://joda-time.sourceforge.net) to handle dates
+- SWT Web Installer (http://osdepinstaller.sourceforge.net/) to download SWT if it is not installed
+- ISQLLib (http://isqllibrary.sourceforge.net/) to query matrices using SQL. 
+
+Notes for the "generic" installation:
+
+The generic installation does not contain the SWT library, which is the only library that depends by the platform.
+It installs the SWT library from the internet the first time Matrex is started.
+Therefore it can be install everywhere SWT is supported (32 bits and 64 bits platforms).
+
+If you install the generic version, you need to:
+1) Start Matrex the first time from the command line in the top Matrex directory (cmd.exe in Windows, bash in Linux...) using "java", not "javaw" (e.g. "java -jar matrex_start.jar")
+2) Matrex will try to install SWT from the internet. Please answer to the question it asks (if you have a proxy, which proxy, from which site you want to install SWT).
+3) If everything goes well, start Matrex once again. This time the application should start as usual.
+
+In case of troubles, check the "Support" page in http://matrex.sourceforge.net.
+
