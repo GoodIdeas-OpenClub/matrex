@@ -8,9 +8,10 @@ Matrex is a vectorial spreadsheet with the same functionalities of a classic spr
 models and for other statistical, engineering, physical, and generally scientific calculations.
 
 The idea that originated Matrex is that a typical spreadsheet is logically formed by:
-● vectors (columns or rows of the spreadsheet)
-● matrices
-● scalars like results of aggregate operations (sums, averages), parameters and constants.
+- vectors (columns or rows of the spreadsheet)
+- matrices
+- scalars like results of aggregate operations (sums, averages), parameters and constants.
+
 So, instead of reducing everything to cells of a spreadsheet, Matrex handles vectors,
 matrices and scalars for what they are, under the general concept of Matrex “matrices”: a
 matrix is an homogeneous rectangular block of numbers, texts, dates or booleans, which
