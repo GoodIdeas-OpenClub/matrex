@@ -1,6 +1,6 @@
 # matrex
 
-**[MAJIC]/MAJOR ACHIEVEMENT** for JOINING THE CLUB: 
+**[MAJIC] for JOINING the CLUB: 
 
 Matrex is a vectorial spreadsheet with the same functionalities of a classic spreadsheet application but in a new, different way. As this, Matrex is a tool to show, organize and [re]calculate calcs on complex data in such tabbulated environments as spreadsheets. 
 
